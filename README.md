@@ -20,11 +20,8 @@ brew install maze-cli
 
 Once installed, you can use maze-cli with the following commands:
 ```
-maze -c performs just cost calculation
-maze -h provides help with cli commands
-maze -g writes the output as a pull request against your repo
-maze -s peforms security compliance checks of your terraform
-maze -v generates an visualisation of your terraform
+maze configure - allows configurations of profiles with auth tokens
+maze plan - allows planning supplied terraform files and creating a project within maze
 ```
 
 ## Contributing
