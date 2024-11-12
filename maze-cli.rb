@@ -1,4 +1,4 @@
-class maze-cli < Formula
+class maze < Formula
     desc "A CLI application for maze multicloud platform"
     homepage "https://github.ibm.com/MAZE-MultiCloud/homebrew-maze-cli"
     url "https://github.ibm.com/MAZE-MultiCloud/homebrew-maze-cli/releases/download/v1.0.0/maze-macos"
@@ -6,11 +6,11 @@ class maze-cli < Formula
     version "1.0.0" # Replace with your app version
   
     def install
-      bin.install "maze-cli"
+      bin.install "maze"
     end
   
     test do
-      system "#{bin}/maze-cli", "--help" # A simple test to verify installation
+      system "#{bin}/maze", "--help" # A simple test to verify installation
     end
   end
   
