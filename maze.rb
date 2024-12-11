@@ -9,7 +9,7 @@ class Maze < Formula
 
   on_macos do
     url "https://github.com//MAZE-MultiCloud/maze-cli/releases/download/1.0/maze-cli_Darwin_all.tar.gz"
-    sha256 "1ef884b9b97c7b5abfa1f437b7ac5bc8f77d2a1ce8abb99a43cbcb670b4201e8"
+    sha256 "7eeee8989f56d89c90455be117f549d6a98e116959629e104fbe9ae3da3de2a7"
 
     def install
       bin.install "maze-cli"
@@ -20,7 +20,7 @@ class Maze < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com//MAZE-MultiCloud/maze-cli/releases/download/1.0/maze-cli_Linux_x86_64.tar.gz"
-        sha256 "b7254527d4a3a0f195fafeb792ba056cf1b6995eb27ecb7add0a7ca0a10316ad"
+        sha256 "e23567921f2dd6e3c31df04abb89e613b8ec4a322fc9c9bca5273287124320c1"
 
         def install
           bin.install "maze-cli"
@@ -30,7 +30,7 @@ class Maze < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com//MAZE-MultiCloud/maze-cli/releases/download/1.0/maze-cli_Linux_arm64.tar.gz"
-        sha256 "6e79d3870215e1be37522381cf976b55523a048d844c19b9c85dd3808adba4f1"
+        sha256 "19f9e903fd856f7efcefecf4ee1b65edf7278df485a28ad974096395ac8a6abd"
 
         def install
           bin.install "maze-cli"
