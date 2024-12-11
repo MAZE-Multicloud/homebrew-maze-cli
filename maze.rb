@@ -12,7 +12,7 @@ class Maze < Formula
     sha256 "bff569a8e38b5a39ec5b5745e3404acec103f248c3b628df0a3910d90273e47d"
 
     def install
-      bin.install "maze-cli"
+      bin.install "maze"
     end
   end
 
@@ -23,7 +23,7 @@ class Maze < Formula
         sha256 "5817ef61567c40417a305fca4a7bd57774277fbb26b01260aa524d0a1a41f44d"
 
         def install
-          bin.install "maze-cli"
+          bin.install "maze"
         end
       end
     end
@@ -33,7 +33,7 @@ class Maze < Formula
         sha256 "9828e27e05275cd327c5a1f0a3cd622eaad265cfed994a0b39c27c61aee0a341"
 
         def install
-          bin.install "maze-cli"
+          bin.install "maze"
         end
       end
     end
